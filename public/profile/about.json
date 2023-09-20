@@ -1,5 +1,11 @@
 {
-    "about": " This is where you can describe about **yourself**. The more you describe about yourself, the better it is!\n\n\nExtra Information about you, like hobbies and your goals.\nExample Paragraph: I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best. In my last job, this passion led me to challenge myself daily and learn new skills that helped me to do better work. For example, I taught myself how to use Photoshop to improve the quality of our photos and graphics. I soon became the go-to person for any design needs.",
-    "imageSource": "images/about/profile.png"
-    
+    "about": {
+        "intro": "Hello! I'm Chinmay Raichur, currently charting my academic journey at Stony Brook University, NY, where I am pursuing my Masters in Computer Engineering. My fascination with programming began at the tender age of 16 when I was introduced to Java. The sheer potential of code to address real-world problems captured my imagination. For me, programming isn't just about writing lines of code; it's about taking actionable steps to make the world a better place.",
+        "education": "Having embarked on this journey with Stony Brook University, I've been fortunate enough to accrue practical experience in the tech industry. With three enriching years at Accenture, I honed my skills as a full-stack developer. My recent summer internship at Trading Technologies Inc. has further solidified my understanding and expertise in the domain.",
+        "interest": "Full stack development has always been my passion. The dual essence of working on both frontend and backend ensures that there's never a dull moment. Yet, of late, the world of systems has piqued my curiosity. I'm actively delving into it, eager to unravel its intricacies and deepen my knowledge.",
+        "beyondTech": "Outside the realm of bits and bytes, I find solace and joy in music. Perhaps it's inherited—after all, my mother's melodious voice has always been a source of inspiration. Soft songs, in particular, resonate with my soul. And yes, there's another dream I nurture: launching my own YouTube channel. I envision it as a space where I can vlog my day-to-day adventures and share a slice of my life with an audience, bridging the gap between personal experiences and the virtual world."
+    },
+    "imageSource": "images/about/profile.jpeg",
+    "height": 400,
+    "width": 430
 }
