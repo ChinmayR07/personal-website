@@ -6,11 +6,10 @@ import Fade from 'react-reveal';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
-import '../css/about.css';
 
 const styles = {
   introTextContainer: {
-    margin: 10,
+    margin: 20,
     flexDirection: 'column',
     whiteSpace: 'pre-wrap',
     textAlign: 'left',
@@ -18,10 +17,10 @@ const styles = {
     fontWeight: 500,
   },
   introImageContainer: {
-    margin: 10,
-    display: 'flex',
+    margin: 20,
     justifyContent: 'center',
     alignItems: 'center',
+    display: 'flex',
   },
 };
 
@@ -30,7 +29,9 @@ function About(props) {
   const [data, setData] = useState(null);
 
   const parseIntro = (text) => (
-    <ReactMarkdown children={text} />
+    <ReactMarkdown
+      children={text}
+    />
   );
 
   useEffect(() => {
@@ -38,7 +39,7 @@ function About(props) {
       method: 'GET',
     })
       .then((res) => res.json())
-      .then((res) => { setData(res); console.log(res); })
+      .then((res) => setData(res))
       .catch((err) => err);
   }, []);
 
@@ -52,20 +53,10 @@ function About(props) {
               <Fade>
                 <Row>
                   <Col style={styles.introTextContainer}>
-                    <h2 className="subheading"> </h2>
-                    {parseIntro(data.about.intro)}
-
-                    <h2 className="subheading">Education and Professional Experience</h2>
-                    {parseIntro(data.about.education)}
-
-                    <h2 className="subheading">Areas of Interest</h2>
-                    {parseIntro(data.about.interest)}
-
-                    <h2 className="subheading">Beyond the Tech World</h2>
-                    {parseIntro(data.about.beyondTech)}
+                    {parseIntro(data.about)}
                   </Col>
                   <Col style={styles.introImageContainer}>
-                    <img src={data.imageSource} alt="profile" height={data.height} width={data.width} />
+                    <img src={data?.imageSource} alt="profile" />
                   </Col>
                 </Row>
               </Fade>
