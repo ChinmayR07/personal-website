@@ -1,0 +1,20 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://www.linkedin.com/in/chinmay-raichur"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/ChinmayR07"
+        },
+        {
+            "network" : "email",
+            "href": "mailto:chinmayraichur@gmail.com"
+        },
+        {
+            "network" : "twitter",
+            "href": "https://twitter.com/CRaichur"
+        }
+    ]
+}

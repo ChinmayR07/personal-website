@@ -1,0 +1,91 @@
+{
+    "projects" : [
+        {
+            "image" : "images/projects/movie-rec-sys-poster.png",
+            "title": "Movie Recommendation System",
+            "bodyText": "- Crafted an advanced movie recommendation system using content-based filtering, powered by a FastAPI ML backend and a React frontend.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": ""
+                },
+                {
+                    "text": "Live",
+                    "href": ""
+                }
+            ],
+            "tags" : [
+                "HTML5",
+                "CSS3",
+                "ReactJs",
+                "FastAPI"
+            ]
+        },
+        {
+            "image" : "images/projects/hotel-booking-poster.png",
+            "title": "Hotel Booking Platform",
+            "bodyText": "- Designed an interactive hotel reservation platform with a ReactJS, HTML, and CSS frontend, driven by a Node.js, Express.js backend and MongoDB data integration.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": ""
+                },
+                {
+                    "text": "Live",
+                    "href": ""
+                }
+            ],
+            "tags" : [
+                "HTML5",
+                "CSS3",
+                "MongoDb",
+                "ExpressJs",
+                "ReactJs",
+                "NodeJs"
+            ]
+        },
+        {
+            "image" : "images/projects/college-compass-poster.png",
+            "title": "College Compass Dashboard",
+            "bodyText": "- College Compass: A data-driven platform, powered by NCES & IPEDS, offering in-depth visualizations on US higher education trends using Angular UI, Flask backend, PostgreSQL database, and D3.js visual presentations. \n - Server-side Backbone: Harnesses Flask for robust data operations and API delivery, empowering students to make informed college decisions.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": ""
+                },
+                {
+                    "text": "Live",
+                    "href": ""
+                }
+            ],
+            "tags" : [
+                "Python",
+                "Flask",
+                "Angular",
+                "PostgreSQL",
+                "D3.js"
+            ]
+        },
+        {
+            "image" : "images/projects/ai-chatbot-poster.png",
+            "title": "AI Chatbot",
+            "bodyText": "- Cloud-based chatbot leveraging dynamic datasets and centralized MySQL for highly customizable interactions. ",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": ""
+                },
+                {
+                    "text": "Live",
+                    "href": ""
+                }
+            ],
+            "tags" : [
+                "ASP.NET MVC",
+                "LUIS",
+                "MySQL",
+                "Microsoft Azure"
+            ]
+        }
+    ]
+}

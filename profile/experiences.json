@@ -1,0 +1,39 @@
+{
+    "experiences": [
+        {
+            "title": "Software Engineer",
+            "subtitle": "Trading Technologies Inc",
+            "workType": "Internship",
+            "workDescription": [
+                "Enhanced developer experience by containerization of notification application using Docker",
+                "Feature development for TT platform notification center which is a distributed system application.",
+                "Boosted application performance by 45% through improved load balancing and caching, leveraging nginx.",
+                "Accomplished heightened security by removing hardcoded secrets through integrating AWS Secret Manager."
+            ],
+            "dateText": "06/2023 – 08/2023"
+        },
+        {
+            "title": "Application Developer Analyst",
+            "subtitle": "Accenture Solutions Pvt Ltd",
+            "workType": "Full-time",
+            "workDescription": [
+                "Streamlined the tax calculation process for the web application, as evidenced by more efficient and accurate computations, by developing tax calculation modules.",
+                "Enhanced modules to effectively process payroll, and accounting details, improving overall data intake efficiency.",
+                "Boosted invoice processing in the Corporate Systems web app through 4 modules, developed using Java and SQL."
+            ],
+            "dateText": "11/2020 – 10/2021"
+        },
+        {
+            "title": "Application Developer Associate",
+            "subtitle": "Accenture Solutions Pvt Ltd",
+            "workType": "Full-time",
+            "workDescription": [
+                "Achieved 60% improvement in ETL job time efficiency saving business team 5 hours weekly by optimizing queries",
+                "Enhanced user experience and application efficiency by designing and implementing solutions on Microsoft Azure that automated the Quality Center web application, providing faster, real-time results to users",
+                "Improved functionality and efficiency using C# in .NET Framework by modernizing outdated code bases"
+            ],
+            "dateText": "01/2020 – 10/2020"
+        }
+        
+    ]
+}

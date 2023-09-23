@@ -1,0 +1,29 @@
+{
+    "education":[
+        {
+            "title": "Aug 2022 - Present",
+            "cardTitle": "M.S. in Computer Engineering",
+            "cardSubtitle":"State University of New York, Stony Brook",
+            "cardDetailedText": "CGPA - 3.89",
+            "icon" : {
+                "src": "images/education/MS_Logo.png"
+            }
+        },
+        {
+            "title": "Aug 2014 - Jun 2018",
+            "cardTitle": "Bachelors in Electronics Engineering",
+            "cardSubtitle":"Dwarkadas J Sanghvi College, Mumbai",
+            "cardDetailedText": "CGPA - 7.82",
+            "icon" : {
+                "src": "images/education/UG_Logo.png"
+            }
+        },
+        {
+            "title": "Jun 2012 - Mar 2014",
+            "cardTitle": "High School - Computer Science",
+            "cardSubtitle":"Royal College of Arts, Science and Commerce, Thane",
+            "cardDetailedText": "Marks - 93%",
+            "cardDescription": "Awarded with scholarship for being in the Top 1 percent in the State among 1.4 million students."
+        }
+    ]
+}
